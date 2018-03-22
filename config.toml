@@ -1,0 +1,32 @@
+baseURL = "http://ecemunal.xyz"
+languageCode = "en-us"
+theme = "cocoa"
+title = "Ecem Unal"
+author = "Ecem Unal"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+[params]
+include_rss            = true
+latestpostscount       = 10
+i18n_flags             = false
+author                 = "Ecem Unal"
+cachebuster            = true
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+lang                   = "en"
+github                 = "//github.com/ecunal"
+linkedin               = "//linkedin.com/in/ecemunal"
+# gravatar               = "6ac5d484694e3d6f8ac6dfef05c27263"
+highlightjs            = true
+highlightjslanguages   = ["go"]
